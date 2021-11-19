@@ -1,6 +1,5 @@
 import pandas as pd
 
-train = pd.read_csv('prediction_log/train_log.csv')
 test = pd.read_csv('prediction_log/test_log.csv')
 train_truth = pd.read_csv('prediction_log/train_truth.csv', index_col='enroll_id')
 test_truth = pd.read_csv('prediction_log/test_truth.csv', index_col='enroll_id')

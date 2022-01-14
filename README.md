@@ -21,7 +21,7 @@ python main.py
 ```
 Note: Features used in this demo are less than what we used in the paper, so the performance will be slightly lower than reported score.
 
-# Reference
+## Reference
 ```
 @inproceedings{feng2019dropout,
 title={Understanding Dropouts in MOOCs},

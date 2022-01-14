@@ -1,4 +1,6 @@
-This is the code for dropout prediction in our AAAI'19 paper:
+# Step 1: Build the XuetangX MOOC dataset
+
+To build the original dataset, we use the code from the following AAAI'19 paper:
 
 Wenzheng Feng, Jie Tang, Tracy Xiao Liu, Shuhuai Zhang, Jian Guan. [Understanding Dropouts in MOOCs](http://keg.cs.tsinghua.edu.cn/jietang/publications/AAAI19-Feng-dropout-moocs.pdf). In Proceedings of the 33rd AAAI Conference on Artificial Intelligence (AAAI'19).
 
@@ -28,3 +30,6 @@ booktitle={Proceedings of the 33rd AAAI Conference on Artificial Intelligence},
 year={2019}
 }
 ```
+# Step 2: Mixed-Effect Regression Model
+
+# Step 3: Prophet Model

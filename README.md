@@ -21,12 +21,13 @@ python main.py
 ```
 
 ## Build dataset
-Open and run the `dataset_construction.ipynb` jupyter notebook in order to construct the dataset needed for the Mixed-Effect Regression Model (Step 2) and the Prophet Model (Step 3). As a side note, inside Step 2 and 3, the dataset will be further adapted (but only slightly) for it to fit the respective format specifications.
+Open and run the `dataset_construction_MELR.ipynb` jupyter notebook in order to construct the dataset and the features for the Mixed-Effect Logistic Regression Model (Step 2) and the `dataset_construction_Prophet.ipynb` jupyter notebook for the Prophet Model (Step 3). As a side note, inside Step 2 and 3, the dataset will be further adapted (but only slightly) for it to fit the respective format specifications.
 
-# Step 2: Mixed-Effect Regression Model (in R)
+# Step 2: Mixed-Effect Logistic Regression Model (in R)
+Open and run the `MELR_Code.R` R-notebook file to obtain the four different MELR models and the corresponding coefficient estimates including their Bonferroni adapted p-values.
 
 # Step 3: Prophet Model (in Python)
-Open and run the `Data_Prophet.ipynb` jupyter notebook for a thorough adaptation of the dataset and an analysis of the (users) total traffic volume on the XuetangX platform. We perform a time-series analysis through the [Facebook Library Prophet](https://facebook.github.io/prophet/).
+Open and run the `Data_Prophet.ipynb` jupyter notebook for a thorough adaptation of the dataset and an analysis of the (student) total traffic volume on the XuetangX platform. We perform a time-series analysis through the [Facebook Library Prophet](https://facebook.github.io/prophet/).
 
 ## Reference
 ```

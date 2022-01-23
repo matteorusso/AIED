@@ -28,13 +28,3 @@ Open and run the `MELR_Code.R` R-notebook file to obtain the four different MELR
 
 # Step 3: Prophet Model (in Python)
 Open and run the `Data_Prophet.ipynb` jupyter notebook for a thorough adaptation of the dataset and an analysis of the (student) total traffic volume on the XuetangX platform. We perform a time-series analysis through the [Facebook Library Prophet](https://facebook.github.io/prophet/).
-
-## Reference
-```
-@inproceedings{feng2019dropout,
-title={Understanding Dropouts in MOOCs},
-author={Wenzheng Feng and Jie Tang and Tracy Xiao Liu and Shuhuai Zhang and Jian Guan},
-booktitle={Proceedings of the 33rd AAAI Conference on Artificial Intelligence},
-year={2019}
-}
-```
